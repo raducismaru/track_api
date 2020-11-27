@@ -27,7 +27,7 @@ class Track(APIView):
         print(url_)
 
         data = {
-            "updated": 'updated',
+            "updated": 'updated_text',
             "followed": 'followed',
             "followcount": '1'
         }
