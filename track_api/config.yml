@@ -1,0 +1,3 @@
+track_api:
+  accepted_actions: ['login', 'logout', 'buy','review', 'shopping-cart']
+  body_requested_keys:  ['ip', 'resolution']

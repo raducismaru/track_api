@@ -1,0 +1,5 @@
+pycountry-convert==0.7.2
+django==2.2.5
+djangorestframework==3.10.3
+pyyaml==5.3.1
+

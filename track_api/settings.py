@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from .helpers import ConfigParser
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -119,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Added external configs from YAML
+YAML_CONFIG_FILE = os.path.join(BASE_DIR, 'track_api', 'config.yml')
+YAML_CONFIG = ConfigParser(YAML_CONFIG_FILE)
+
+x = 1
