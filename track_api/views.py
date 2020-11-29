@@ -53,7 +53,6 @@ class Track(APIView):
                 err.append({'wrong type': 'ip should be string'})
         return err
 
-
     def get_ip_info(self, ip:str, fields=None):
         """
         Calls external api to get location info for provided IP.
