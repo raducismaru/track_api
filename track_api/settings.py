@@ -124,5 +124,3 @@ STATIC_URL = '/static/'
 # Added external configs from YAML
 YAML_CONFIG_FILE = os.path.join(BASE_DIR, 'track_api', 'config.yml')
 YAML_CONFIG = ConfigParser(YAML_CONFIG_FILE)
-
-x = 1
